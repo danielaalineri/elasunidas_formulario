@@ -1,0 +1,126 @@
+/* EXERCÍCIO DE FORMULÁRIO - ELAS UNIDAS 8 */
+
+body{
+	font-family: 'Open+sans', sans-serif;
+
+
+}
+
+/* FORMULÁRIO */
+
+form{
+	margin: auto;
+	width: 750px;
+	
+}
+
+form h1{
+
+	font-size: 26px;
+	color: #954E4E;
+}
+
+#usuario, #mail, #senha{
+	width: 70%;
+	
+}
+
+fieldset{
+
+	padding: 10px 20px;
+	display: flex;
+	justify-content: flex-start;
+	background-color: #F2F2F2;
+
+}
+
+
+label{
+	display: flex;
+	padding: 10px 0;
+	justify-content: flex-start;
+
+}
+
+
+legend{
+
+	font-weight: bold;
+	font-size: 18px;
+	padding: 14px;
+}
+
+/* FORM GENERO */
+
+ .genero1  {
+	
+	display: block;
+
+}
+
+.linha{
+	display: inline-block;
+}
+
+ .area  {
+	
+	display: block;
+
+}
+
+
+/* BOTÃO */
+
+button{
+
+	padding: 10px;
+}
+
+button:hover{
+background: background: rgb(234,185,45); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(234,185,45,1) 0%, rgba(199,152,16,1) 94%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(234,185,45,1) 0%,rgba(199,152,16,1) 94%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(234,185,45,1) 0%,rgba(199,152,16,1) 94%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eab92d', endColorstr='#c79810',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+button
+
+
+
+
+.botao{
+	display: inline-block;
+    margin-top: 6px;
+
+	
+}
+
+.limpar {
+	
+	background: linear-gradient(to bottom, rgba(252,234,187,1) 0%,rgba(248,181,0,1) 43%,rgba(252,205,77,1) 75%,rgba(251,223,147,1) 100%);
+	background:    -moz-linear-gradient(top, rgba(252,234,187,1) 0%, rgba(248,181,0,1) 43%, rgba(252,205,77,1) 75%, rgba(251,223,147,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(252,234,187,1) 0%,rgba(248,181,0,1) 43%,rgba(252,205,77,1) 75%,rgba(251,223,147,1) 100%);
+
+}
+
+
+
+ .envia{
+ 	padding: 10px;
+ 	background: rgb(212,228,239); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(212,228,239,1) 0%,rgba(134,174,204,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(212,228,239,1) 0%,rgba(134,174,204,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc',GradientType=0 ); /* IE6-9 */
+ }
+ 	
+input[type^="submit"]:hover{
+	background: rgb(197,222,234); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(197,222,234,1) 0%, rgba(138,187,215,1) 27%, rgba(6,109,171,1) 76%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(197,222,234,1) 0%,rgba(138,187,215,1) 27%,rgba(6,109,171,1) 76%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(197,222,234,1) 0%,rgba(138,187,215,1) 27%,rgba(6,109,171,1) 76%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=0 ); /* IE6-9 */
+}

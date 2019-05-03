@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Formulário">
+	<meta name="keyords" content="form, html5, css, formulaio, elas_unidas">
+	<title>Exercício Extra - Form</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	
+</head>
+<body>
+
+	<main>
+	 <form action="pagina.php" method="post" class="form-cadastro">
+          <h1>Formulario de Cadastro</h1>
+
+	 	<fieldset>
+	        <legend>Insira seus dados cadastrais</legend> 
+	 	 	<label for="usuario" class="texto">Seu nome</label>
+	 	 	<input type="texto" name="nome" placeholder="Insira seu nome" id="usuario" autofocus="required">
+      
+
+		    <label for="mail">E-mail</label>
+           	<input type="email" name="email" placeholder="Insira seu e-mail" autocomplete= required id="mail"> 
+         
+           	<label for="senha"> Crie uma senha </label>
+           	<input type="password" name="pass" id="senha" pattern="[a-zA-Z \w]" placeholder="Somente letras e números" required>
+
+           	<label>Insira a sua data de nascimento</label>
+           	<input type="date" name="" min="1990-01-01" max="2019-12-31">
+    </fieldset> 
+
+    <fieldset class="genero1">
+
+           	<legend>Informe seu Gênero</legend>
+           	 
+           	<label class="genero1 linha"><input type="radio" name="gen" value="F" > Feminino</label>
+         
+           	
+           <label class="genero1 linha">
+           	<input type="radio" name="gen" value="M">
+           	Masculino   </label>
+           
+           	
+            <label class="genero1 linha">
+           	<input type="radio" name="gen" value="N">
+           Prefiro não informar</label>
+            
+
+      </fieldset>
+
+        <fieldset>
+            <legend>Escolha seu estado e cidade</legend>	
+            <label>Estado e cidade</label>
+            <select name="estado">
+            	<optgroup label="São Paulo">
+            	<option value="0">Selecione</option>	
+            	<option value="sp">São Paulo</option>
+            	<option value="grandesp">Grande São Paulo</option>
+            	<option value="interiorsp"> Interior de São Paulo</option>
+            	<option value="litoralsp"> Litoral de São Paulo</option>
+            	</optgroup>
+
+            	<optgroup label="Rio de Janeiro">
+            		<option value="rj">Rio de Janeio</option>
+            		<option value="niteroi">Niterói</option>
+            		<option value="outracidaderj">Outra Cidade</option>
+            	
+            	</optgroup>
+
+            	<optgroup label="Outros Estados">
+            		<option value="bahia">Bahia</option>
+            		<option value="outros"> Outros</option>
+            	
+            	</optgroup>
+
+            </select>
+
+        </fieldset>
+
+        <fieldset class="area">
+        	<legend>Área de Interesse</legend>
+        	<input type="checkbox" name="html" value="html">HTML
+        	<input type="checkbox" name="css" value="css">CSS
+        	<input type="checkbox" name="javascript">Javascript
+        	
+
+        </fieldset>
+
+        <fieldset>
+        	<legend>Qual o seu nível de conhecimento na(s) área(s) escolhidas?</legend>
+        	<select name="objetivo">
+        		<option value="0">Selecione</option>
+        		<option value="avançado">Avançado</option>
+        		<option value="intermediario"> Intermediário</option>
+        		<option value="iniciante">Iniciante</option>
+        
+        	</select>
+
+        </fieldset>
+
+        <fieldset>
+        	
+        <legend>Se desejar incluir uma mensagem ou observação, escreva no campo abaixo</legend>
+        <textarea name="msg" cols="50" rows="10" maxlength="500" style="resize: none;"></textarea>
+
+        </fieldset>
+
+<div class="botao">
+
+	<button class=" botao limpar">Limpar</button> 
+<input class="botao envia" type="submit" value="Enviar">
+</div>
+      
+	 </form>	
+     
+
+	</main>
+
+</body>
+</html>
